@@ -1,5 +1,6 @@
 Calculate how many pods you can run in your k8s cluster (EKS) based on aws formula 
-ENI * (# of IPv4 per ENI - 1) + 2, on aws each instance type has a different upper limit
+```ENI * (# of IPv4 per ENI - 1) + 2```. 
+On aws each instance type has a different upper limit
 
 ### Usage
 
