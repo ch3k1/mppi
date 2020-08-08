@@ -10,5 +10,10 @@ n is the number of Elastic Network Interfaces (ENI) of the instance type
 m is the number of IP addresses of a single ENI
 
 ```
-./max_pod_per_instance.sh -n 3 -m 6 -k ~/.kube/config
+./max_pod_per_instance.sh -n 3 -m 6
+```
+
+If you have more than 1 worker node, in this example, I am using 5 worker node on AWS
+```
+./max_pod_per_instance.sh -n 3 -m 6 -i 5
 ```
